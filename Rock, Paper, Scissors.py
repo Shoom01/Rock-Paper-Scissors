@@ -49,7 +49,7 @@ def get_outcome(PlayerResult):
         Outcome = 'Loss'
     print('The game was a', Outcome, 'as the bot went', BotAnswer)
 
-if __name__ == __main__:
+if __name__ == "__main__":
     BotAnswer = get_bot_choice()
     PlayerAnswer = get_player_choice()
     PlayerResult = get_result(BotAnswer, PlayerAnswer)
