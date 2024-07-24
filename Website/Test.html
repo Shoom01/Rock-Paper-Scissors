@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<table>
+    <tr>
+      <th>Player 1</th>
+      <th>Terminator Bot</th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </table>
+
+
+<head>
+    <style>
+    body {background-color: rgb(187, 211, 35);}
+    
+    table, th, td {
+    border: 1px solid;
+    }
+    </style>
+    
+    <meta charset="UTF-8">
+
+    <script src="Rock, Paper, Scissors.js">
+    </script>
+    
+</head>
+
+<body>
+    Make your Move:
+    
+    <br>
+
+
+    <input type="radio" onclick="myFunction('Rock')" id="rock" name="chosenMove" value="rock">
+    <label for="rock">Rock</label><br>
+    <input type="radio" onclick="myFunction('Paper')" id="paper" name="chosenMove" value="paper">
+    <label for="paper">Paper</label><br>
+    <input type="radio" onclick="myFunction('Scissors')" id="scissors" name="chosenMove" value="scissors">
+    <label for="scissors">Scissors</label>
+
+    <br>
+    <button type="submit" onclick="startGame()">Submit Answer!</button>
+
+</body>
