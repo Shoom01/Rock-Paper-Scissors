@@ -6,42 +6,44 @@
       <th>Terminator Bot</th>
     </tr>
     <tr>
-      <td>0</td>
-      <td>0</td>
+      <td id="playerScore">0</td>
+      <td id="botScore">0</td>
     </tr>
-  </table>
-
+</table>
 
 <head>
-    <style>
-    body {background-color: rgb(187, 211, 35);}
-    
-    table, th, td {
-    border: 1px solid;
-    }
-    </style>
-    
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="Test.css">
     <script src="Rock, Paper, Scissors.js">
     </script>
     
 </head>
 
 <body>
-    Make your Move:
-    
+  <font color="White">
+      Make your Move:
+  </font color="White">    
     <br>
 
 
-    <input type="radio" onclick="myFunction('Rock')" id="rock" name="chosenMove" value="rock">
+    <input type="radio" onclick="myFunction('rock')" id="rock" name="chosenMove" value="rock">
     <label for="rock">Rock</label><br>
-    <input type="radio" onclick="myFunction('Paper')" id="paper" name="chosenMove" value="paper">
+    <input type="radio" onclick="myFunction('paper')" id="paper" name="chosenMove" value="paper">
     <label for="paper">Paper</label><br>
-    <input type="radio" onclick="myFunction('Scissors')" id="scissors" name="chosenMove" value="scissors">
+    <input type="radio" onclick="myFunction('scissors')" id="scissors" name="chosenMove" value="scissors">
     <label for="scissors">Scissors</label>
 
     <br>
     <button type="submit" onclick="startGame()">Submit Answer!</button>
 
-</body>
+  <div class="descriptionSection">
+    <font color="White" >
+      Rock beats scissors and loses to paper: Rock is strong enough to break scissors, but paper wraps itself around the rock to shut it down.
+      <br>
+      Paper beats rock but loses to scissors: Paper wraps itself around the rock to lock it down, but it can’t fight back against the sharp scissors which can cut it.
+      <br>
+      Scissors beat paper but loses to rock: Scissors can cut through paper, but they can’t stand up to a rock slamming down on them.
+  </font color="White">
+  </div>
+
+  </body>
