@@ -1,0 +1,41 @@
+body {
+    background-image: url(rock-paper-scissor.jpg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display:inline-block;
+}
+
+#playerScore {
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+
+.descriptionSection{
+    margin-top: 32px;
+}
+
+table, th, td {
+    border: 1px solid;
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: 50%;
+    font-size: 50px;
+
+}
+
+label {
+    color: rgb(255, 255, 255)
+}
